@@ -1,0 +1,56 @@
+/* index.css 或 main.css */
+
+/* 确保你导入了 Tailwind 的基础样式 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css 或 main.css */
+
+/* ---------------------------------------------------- */
+/* 1. JetBrainsMono  */
+/* ---------------------------------------------------- */
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('/public/fonts/JetBrainsMono-2.304/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: 400; /* 常规 */
+  font-style: normal;
+  font-display: swap; /* 确保字体加载时页面不会阻塞 */
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('/public/fonts/JetBrainsMono-2.304/ttf/JetBrainsMono-Bold.ttf') format('truetype');
+  font-weight: 700; /* 粗体 */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------------------------------------------------- */
+/* 2. Fira_Code */
+/* ---------------------------------------------------- */
+@font-face {
+  font-family: 'Fira_Code';
+  src: url('/public/fonts/Fira_Code_woff2/FiraCode-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira_Code';
+  src: url('/public/fonts/Fira_Code_woff2/FiraCode-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+body {
+  /* 全局默认使用档案字体 */
+  font-family: 'JetBrainsMono', 'Fira_Code'; 
+  background-color: #ffffff; 
+  color: #000000;
+}
