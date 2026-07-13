@@ -7,9 +7,6 @@
 
 /* index.css 或 main.css */
 
-/* ---------------------------------------------------- */
-/* 1. JetBrainsMono  */
-/* ---------------------------------------------------- */
 @font-face {
   font-family: 'JetBrainsMono';
   src: url('/public/fonts/JetBrainsMono-2.304/ttf/JetBrainsMono-Regular.ttf') format('truetype');
@@ -27,8 +24,7 @@
 }
 
 /* ---------------------------------------------------- */
-/* 2. Fira_Code */
-/* ---------------------------------------------------- */
+
 @font-face {
   font-family: 'Fira_Code';
   src: url('/public/fonts/Fira_Code_woff2/FiraCode-Regular.woff2') format('woff2');

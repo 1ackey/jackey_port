@@ -70,12 +70,11 @@ function App() {
                 Slides(开发中)
             </span>
           </a>
-
           <a
             href="#"
             className="group relative flex flex-col items-center justify-center cursor-pointer text-black"
           >
-            <Languages size={20} className="group-hover:opacity-20 transition duration-300"/>
+            <Book size={20} className="group-hover:opacity-20 transition duration-300"/>
             {/* Tooltip */}
             <span 
                 className="absolute top-full mt-3 px-3 py-1 bg-white border border-black 
@@ -84,11 +83,15 @@ function App() {
                           transition-opacity duration-200 ease-in-out 
                           z-10 shadow-md"
             >
-                ?(开发中)
+                Slides(开发中)
             </span>
           </a>
-        </div>
-      </div>
+
+
+
+
+
+
 
       {/* 页脚版权 */}
       <footer className="text-center text-xs py-5">
