@@ -1,5 +1,5 @@
 // App.jsx
-import { GitMerge, Tv, Book, Languages} from 'lucide-react';
+import { GitMerge, Tv, Book, Images, PanelRightOpen} from 'lucide-react';
 import './App.css';
 
 function App() {
@@ -8,8 +8,9 @@ function App() {
       
       {/* 中间内容 */}
       <div className="flex flex-col items-center justify-center flex-grow">
-        <h1 className="text-3xl font-bold mb-2 tracking-widest">Jackey</h1>
+        <h1 className="text-3xl font-bold mb-2 tracking-widest">Jackey 刘威特</h1>
         <p className="text-sm  mb-1">Undergraduate</p>
+        <p className="text-sm  mb-1"> I study Linguistics & Technical Art & Computer Graphics</p>
         <p className="text-sm tracking-widest mb-4">Beijing UIBE</p>
 
         {/* 联系方式 */}
@@ -55,39 +56,62 @@ function App() {
           </a>
 
           <a
-            href="#"
+            href="/notebook/"
             className="group relative flex flex-col items-center justify-center cursor-pointer text-black"
           >
             <Book size={20} className="group-hover:opacity-20 transition duration-300"/>
             {/* Tooltip */}
-            <span 
-                className="absolute top-full mt-3 px-3 py-1 bg-white border border-black 
-                          text-xs text-black tracking-widest whitespace-nowrap 
-                          opacity-0 invisible group-hover:opacity-100 group-hover:visible 
-                          transition-opacity duration-200 ease-in-out 
+            <span
+                className="absolute top-full mt-3 px-3 py-1 bg-white border border-black
+                          text-xs text-black tracking-widest whitespace-nowrap
+                          opacity-0 invisible group-hover:opacity-100 group-hover:visible
+                          transition-opacity duration-200 ease-in-out
                           z-10 shadow-md"
             >
-                Slides(开发中)
+                SIS-Notebook
             </span>
+          </a>
+
+          <a
+            href="/collection"
+            className="group relative flex flex-col items-center justify-center cursor-pointer text-black"
+          >
+            <Images size={20} className="group-hover:opacity-20 transition duration-300"/>
+            {/* Tooltip */}
+            <span
+                className="absolute top-full mt-3 px-3 py-1 bg-white border border-black
+                          text-xs text-black tracking-widest whitespace-nowrap
+                          opacity-0 invisible group-hover:opacity-100 group-hover:visible
+                          transition-opacity duration-200 ease-in-out
+                          z-10 shadow-md"
+            >
+              Collections
+            </span>
+
+
           </a>
           <a
-            href="#"
+            href="/slides"
             className="group relative flex flex-col items-center justify-center cursor-pointer text-black"
           >
-            <Book size={20} className="group-hover:opacity-20 transition duration-300"/>
+            <PanelRightOpen size={20} className="group-hover:opacity-20 transition duration-300"/>
             {/* Tooltip */}
-            <span 
-                className="absolute top-full mt-3 px-3 py-1 bg-white border border-black 
-                          text-xs text-black tracking-widest whitespace-nowrap 
-                          opacity-0 invisible group-hover:opacity-100 group-hover:visible 
-                          transition-opacity duration-200 ease-in-out 
+            <span
+                className="absolute top-full mt-3 px-3 py-1 bg-white border border-black
+                          text-xs text-black tracking-widest whitespace-nowrap
+                          opacity-0 invisible group-hover:opacity-100 group-hover:visible
+                          transition-opacity duration-200 ease-in-out
                           z-10 shadow-md"
             >
-                Slides(开发中)
-            </span>
-          </a>
+              Slides
+           </span>
+           </a>
 
 
+
+        </div>
+
+    </div>
 
 
 
@@ -95,10 +119,12 @@ function App() {
 
       {/* 页脚版权 */}
       <footer className="text-center text-xs py-5">
-        Copyright © 2025 @刘威特 All Rights Reserved.
+        Copyright © 2026 @刘威特 All Rights Reserved.
         <br />
         京 ICP 备 2025123567 号 - 1
       </footer>
+
+
     </div>
   );
 }
